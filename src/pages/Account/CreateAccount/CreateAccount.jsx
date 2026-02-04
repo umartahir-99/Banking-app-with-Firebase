@@ -94,9 +94,8 @@ console.error("Error adding document: ", e);
   const [isProcessing, setIsProcessing] = useState(false);
 
   return (
-    <main className="auth flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
-      <div className="flex flex-col gap-6 w-full max-w-[900px]">
-        {/* Back to Dashboard Container - Positioned Above */}
+    <main className=" flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+      <div className="flex flex-col gap-6 w-full max-w-[800px]">
         <div className="card p-4 bg-white rounded-lg shadow-lg flex justify-start animate-fadeIn">
           <Button 
             className="!py-4 !px-6" 
