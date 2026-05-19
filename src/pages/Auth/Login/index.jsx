@@ -67,7 +67,9 @@ const Login = () => {
                 placeholder="Enter your email"
                 name="email"
                 onChange={handleChange}
+
               />
+              
             </Item>
             <Item label="Password" required>
               <Input.Password
@@ -80,14 +82,12 @@ const Login = () => {
 
             <Button
                 type="primary"
-  className="
-    !h-10 !px-2 !rounded-lg !font-medium
-         h-11 px-8 text-base font-medium
+                className="!h-10 !px-2 !rounded-lg !font-medium
+                h-11 px-8 text-base font-medium
                 bg-gradient-to-r from-blue-500 to-blue-600
                 hover:from-blue-600 hover:to-blue-700
                 shadow-md hover:shadow-lg hover:scale-[1.02]
-                transition-all duration-300
-              "
+                transition-all duration-300"
   
               size="large"
               block

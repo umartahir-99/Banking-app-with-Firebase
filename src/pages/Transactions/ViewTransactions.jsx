@@ -92,6 +92,7 @@ export default function ViewTransactions() {
           shape="circle"
           icon={<ArrowLeftOutlined />}
           onClick={() => navigate("/dashboard")}
+          
         />
 
         <Title level={2} className="absolute left-1/2 -translate-x-1/2 m-0">
